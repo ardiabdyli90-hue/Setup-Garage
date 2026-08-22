@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Setup Garage — Racing Game Setups
+    </title>
+
+    <meta
+        name="description"
+        content="Setup Garage — racing game car setups for circuit, drift, drag, and grip."
+    >
+
+    <!-- Browser Tab / Favicon -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="/images/logo.png"
+    >
+
+    <link
+        rel="shortcut icon"
+        type="image/png"
+        href="/images/logo.png"
+    >
+
+    <!-- Website CSS -->
+    <link
+        rel="stylesheet"
+        href="/style.css"
+    >
+</head>
+
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================= -->
+
+    <header class="navbar">
+
+        <a
+            href="/"
+            class="logo"
+            aria-label="Setup Garage Home"
+        >
+
+            <img
+                src="/images/logo.png"
+                alt="Setup Garage"
+            >
+
+        </a>
+
+
+        <nav>
+
+            <a href="#games">
+                Games
+            </a>
+
+            <a href="#setups">
+                Setups
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                🏁 SETUP GARAGE
+            </div>
+
+
+            <h1>
+                Find the right<br>
+
+                <span>
+                    setup for your car.
+                </span>
+            </h1>
+
+
+            <p>
+                Discover circuit, drift, drag, and grip
+                setups for your favorite racing games.
+            </p>
+
+
+            <div class="search-box">
+
+                <span>
+                    🔎
+                </span>
+
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search a car, game, or setup..."
+                    autocomplete="off"
+                    aria-label="Search cars, games, and setups"
+                >
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN
+    ========================= -->
+
+    <main>
+
+        <!-- =========================
+             GAMES
+        ========================= -->
+
+        <section
+            id="games"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="small-title">
+                        BROWSE
+                    </p>
+
+
+                    <h2>
+                        Games
+                    </h2>
+
+                </div>
+
+
+                <span
+                    id="setupCount"
+                    class="count"
+                ></span>
+
+            </div>
+
+
+            <div
+                id="gameGrid"
+                class="game-grid"
+            >
+
+                <div class="empty">
+                    Loading games...
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SETUPS
+        ========================= -->
+
+        <section
+            id="setups"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="small-title">
+                        GARAGE
+                    </p>
+
+
+                    <h2>
+                        Available Setups
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div
+                id="setupGrid"
+                class="setup-grid"
+            >
+
+                <div class="empty">
+                    Loading setups...
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+
+            <img
+                src="/images/logo.png"
+                alt="Setup Garage"
+            >
+
+        </div>
+
+
+        <p>
+            Community racing setups and tuning information.
+        </p>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================= -->
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
